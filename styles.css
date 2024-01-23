@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    background-size: cover
+    background-position;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.thumbnail-strip {
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 10vh;
+}
+
+.thumbnail-strip a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.thumbnail-strip a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+main {
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    background-image: url('theater-image-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50%;
+    background-color: white
+}
+
+.featured-show {
+    max-width: 240px;
+    margin: 0.5cm auto 2em;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.featured-show img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+}
+
+.show-details {
+    padding: 5px;
+    width: 50%;
+}
+
+.show-details h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.show-details p {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.show-details a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 8px;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+.show-details a:hover {
+    background-color: #bd2222;
+}
